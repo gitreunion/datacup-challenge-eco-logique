@@ -17,7 +17,7 @@ Notre solution répond au problème de la gestion durable de la ressource en eau
 ## Installation et Utilisation
 
 ### **Prérequis**
-Avant de commencer, vérifiez que tous les fichiers nécessaires, présents dans le dossier `Calcul_de_cuve`, se trouvent bien dans le répertoire de travail. Les scripts Python suivants doivent être exécutés dans l'ordre indiqué :
+Avant de commencer, vérifiez que tous les fichiers nécessaires, présents dans le dossier **Calcul_de_cuve**, se trouvent bien dans le répertoire de travail. Les scripts Python suivants doivent être exécutés dans l'ordre indiqué :
 
 #### 1. Lancer le script `insertionPluviometrie.py`
 Ce script permet d'insérer les données de pluviométrie dans la base de données en utilisant les données provenant d'un fichier `.xlsx`. Il charge et prépare les informations nécessaires avant d'insérer les valeurs dans le système.
