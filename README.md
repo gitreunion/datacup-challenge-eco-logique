@@ -17,25 +17,27 @@ Notre solution répond au problème de la gestion durable de la ressource en eau
 ## Installation et Utilisation
 
 ### **Prérequis**
-Avant de commencer, vérifiez que tous les fichiers nécessaires, présents dans le dossier **Calcul_de_cuve**, se trouvent bien dans le répertoire de travail. Les scripts Python suivants doivent être exécutés dans l'ordre indiqué :
+Avant de commencer, téléchargez les fichiers nécessaires, **Calcul_de_cuve** et **Catch_Water_app**. Les scripts Python suivants doivent être exécutés dans l'ordre indiqué :
 
-#### 1. Lancer le script `insertionPluviometrie.py`
+#### 1. Exécuter le script `insertionPluviometrie.py`
 Ce script permet d'insérer les données de pluviométrie dans la base de données en utilisant les données provenant d'un fichier `.xlsx`. Il charge et prépare les informations nécessaires avant d'insérer les valeurs dans le système.
 
-#### 2. Lancer le script `lecture_et_insertion_couts.py`
+#### 2. Exécuter le script `lecture_et_insertion_couts.py`
 Ce script s'occupe de la lecture des coûts à partir de la source spécifiée et de leur insertion dans la base de données. Assurez-vous que toutes les données nécessaires sont présentes avant d'exécuter ce script.
 
-#### 3. Lancer le script `lecture_et_insertion_batient_et_adresse.py`
+#### 3. Exécuter le script `lecture_et_insertion_batient_et_adresse.py`
 Ce script extrait les informations des patients et des adresses à partir des données sources (par exemple, un fichier Excel ou une autre base de données) et les insère dans le système.
 
-#### 4. Lancer l'application `datacupAdresse.html`
-Une fois les scripts exécutés, ouvrez cette application HTML dans un navigateur pour interagir avec les données et visualiser les résultats. Cette application permet de consulter et manipuler les informations concernant les adresses et les données liées aux patients.
+#### 4. Exécuter l'application **app.py**
+
+#### 5. Ouvrir un navigateur et aller sur: **127.0.0.1:5000**.
 
 #### Ordre d'Exécution
 1. Exécuter `insertionPluviometrie.py`
 2. Exécuter `lecture_et_insertion_couts.py`
 3. Exécuter `lecture_et_insertion_batient_et_adresse.py`
-4. Ouvrir `app.py` dans un navigateur.
+4. Exécuter `app.py`.
+5. Ouvrir un navigateur et aller sur: **127.0.0.1:5000**.
 
 #### Remarque
 Dans le fichier `data_pluvios_2012-2022.xlsx`, les colonnes suivantes ont été supprimées :
