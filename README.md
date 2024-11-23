@@ -37,6 +37,15 @@ Une fois les scripts exécutés, ouvrez cette application HTML dans un navigateu
 3. Exécuter `lecture_et_insertion_batient_et_adresse.py`
 4. Ouvrir `datacupAdresse.html` dans un navigateur.
 
+#### Remarque
+Dans le fichier `data_pluvios_2012-2022.xlsx`, les colonnes suivantes ont été supprimées :
+
+- "dos d'ane"
+- "l'ermitage cirad"
+- "mare a vieille place"
+- "pont d'yves"
+- "riviere de l'est cirad"
+
 ## **Contributions**
 
 Si vous souhaitez contribuer à ce projet, merci de suivre les [recommendations](/CONTRIBUTING.md).
