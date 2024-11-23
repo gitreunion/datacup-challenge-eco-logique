@@ -17,8 +17,13 @@ Notre solution répond au problème de la gestion durable de la ressource en eau
 ## Installation et Utilisation
 
 ### **Prérequis**
-Avant de commencer, téléchargez les fichiers nécessaires, **Calcul_de_cuve** et **Catch_Water_app**. Les scripts Python suivants doivent être exécutés dans l'ordre indiqué :
+Avant de commencer, téléchargez les fichiers nécessaires: 
+- **Calcul_de_cuve**
+- **Catch_Water_app**
+Les scripts Python suivants doivent être exécutés dans l'ordre indiqué :
 
+
+Dans **Calcul_de_cuve**: 
 #### 1. Exécuter le script `insertionPluviometrie.py`
 Ce script permet d'insérer les données de pluviométrie dans la base de données en utilisant les données provenant d'un fichier `.xlsx`. Il charge et prépare les informations nécessaires avant d'insérer les valeurs dans le système.
 
@@ -28,6 +33,7 @@ Ce script s'occupe de la lecture des coûts à partir de la source spécifiée e
 #### 3. Exécuter le script `lecture_et_insertion_batient_et_adresse.py`
 Ce script extrait les informations des patients et des adresses à partir des données sources (par exemple, un fichier Excel ou une autre base de données) et les insère dans le système.
 
+Dans **Catch_Water_app**:
 #### 4. Exécuter l'application **app.py**
 
 #### 5. Ouvrir un navigateur et aller sur: **127.0.0.1:5000**.
