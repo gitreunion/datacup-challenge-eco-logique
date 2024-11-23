@@ -35,7 +35,7 @@ Une fois les scripts exécutés, ouvrez cette application HTML dans un navigateu
 1. Exécuter `insertionPluviometrie.py`
 2. Exécuter `lecture_et_insertion_couts.py`
 3. Exécuter `lecture_et_insertion_batient_et_adresse.py`
-4. Ouvrir `datacupAdresse.html` dans un navigateur.
+4. Ouvrir `app.py` dans un navigateur.
 
 #### Remarque
 Dans le fichier `data_pluvios_2012-2022.xlsx`, les colonnes suivantes ont été supprimées :
