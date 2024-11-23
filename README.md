@@ -35,7 +35,7 @@ Ce script s'occupe de la lecture des coûts à partir de la source spécifiée e
 Ce script extrait les informations des patients et des adresses à partir des données sources (par exemple, un fichier Excel ou une autre base de données) et les insère dans le système.
 
 Dans **Catch_Water_app**:
-#### 4. Exécuter l'application **app.py**
+#### 4. Exécuter l'application `app.py`
 
 #### 5. Ouvrir un navigateur et aller sur: **127.0.0.1:5000**.
 
